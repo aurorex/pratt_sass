@@ -1,0 +1,20 @@
+@mixin excel(){
+    color: $color_text_p;
+    text-align:center;
+    line-height:30px;
+}
+
+.seccion_uno{
+    background-color:$background_uno;
+    padding-top:$padding;
+    h1,h3{
+        color:$color_text_titulo;
+        text-align:$text_center;
+    }
+}
+
+.seccion_dos{
+    background-color:$background_dos;
+    padding:$paddin_footer;
+    @include excel();
+}
